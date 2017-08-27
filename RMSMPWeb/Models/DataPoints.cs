@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace RMSMPWeb
 {
@@ -12,6 +13,8 @@ namespace RMSMPWeb
         {
 
         }
+        [Key]
+        public int id { get; set; }
         public DateTime timeStamp { get; set; }
         public DateTime groupingStamp { get; set; }
         public string deviceId { get; set; }
