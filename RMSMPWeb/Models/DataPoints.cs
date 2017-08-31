@@ -28,7 +28,8 @@ namespace RMSMPWeb
         public double evaporatorTemp { get; set; }
         public double fanCurrent { get; set; }
         public double compressorCurrent { get; set; }
-
+        public double fanCurrentAjusted { get; set; }
+        public double compressorCurrentAjusted { get; set; }
         public int sourceCount { get; set; }
 
 
